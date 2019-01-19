@@ -1,0 +1,71 @@
+
+      html {
+        height: 100%;
+      }
+      body {
+        height: 90%;
+        padding: 20px;
+      }
+      h1 {
+        font: 3em monospace;
+        margin: 10px;
+        padding: 0;
+      }
+      small {
+        margin: 10px;
+        width: 50%;
+        display: block;
+      }
+      .log {
+        padding: 5px;
+        margin-left: 10px;
+        overflow-y: scroll;
+        border: 1px solid black;
+        white-space: pre-wrap;
+        height: 40%;
+        width: 40%;
+        font: 1em monospace;
+        margin-top: 10px;
+      }
+      .wallet {
+        padding: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+        font: 1em monospace;
+      }
+      .rpc, .send {
+        padding: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+        font: 1em monospace;
+      }
+      #newaddr{
+        display: block;
+        margin-left: 10px;
+      }
+      .tx {
+        float: right;
+        font: 1em monospace;
+        padding: 5px;
+        border: 1px solid black;
+        margin-top: 10px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .floating {
+        font: 1em monospace;
+        white-space: pre-wrap;
+        position: absolute;
+        display: none;
+        padding: 5px;
+        background: white;
+        border: 1px solid black;
+        width: 40%;
+        height: 30%;
+        top: 50%;
+        left: 50%;
+        margin-left: -20%;
+        margin-top: -15%;
+        overflow-y: scroll;
+      }
