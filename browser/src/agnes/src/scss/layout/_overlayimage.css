@@ -1,0 +1,20 @@
+.image {
+	display: flex;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-image: url("/home/lubin/bcoin-bitcrypt-gang/browser/src/agnes/src/images/home-background.png");
+}
+.center-form {
+	margin: 0 auto;
+	width: 30em;
+	text-align: justify;
+	height: 50%;
+	width: 50%;
+	position: center;
+	top: 50%;
+	left: 50%;
+}
