@@ -9,12 +9,16 @@
 	background-image: url("/home/lubin/bcoin-bitcrypt-gang/browser/src/agnes/src/images/home-background.png");
 }
 .center-form {
-	margin: 0 auto;
+	margin: 15px;
+	padding: 15px;
 	width: 30em;
 	text-align: justify;
 	height: 50%;
 	width: 50%;
-	position: center;
+	position: right;
 	top: 50%;
-	left: 50%;
+	background-color: lightcyan;
+}
+.card-container {
+	margin: 25px;
 }
