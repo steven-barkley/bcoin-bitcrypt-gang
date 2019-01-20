@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Dashboard</title>
+		<title>Home</title>
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
@@ -16,6 +16,7 @@
 			integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
 			crossorigin="anonymous"
 		/>
+		<link href="/src/scss/layout/_overlayimage.scss" rel="stylesheet" />
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
 			integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
@@ -51,70 +52,26 @@
 					id="navbarSupportedContent"
 				>
 					<ul class="navbar-nav mr-auto">
-						<li>
+						<li class="nav-item active">
 							<a class="nav-link" href="#"
 								>Home<span class="sr-only">(current)</span></a
 							>
 						</li>
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="#">Dashboard</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Settings</a>
 						</li>
 					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input
-							class="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button
-							class="btn btn-outline-success my-2 my-sm-0"
-							type="submit"
-						>
-							Search
-						</button>
-					</form>
 				</div>
 			</nav>
 		</div>
-		<div>
-			<div>
-				<div>
-					<p>Name: User Name</p>
-					<p>Public Key: 54njk4b5jio3u434bn5u24y89</p>
-					<p>Coins: Bitcoin</p>
-				</div>
-			</div>
-			<table class="table" style="width:100%">
-				<thead>
-					<tr>
-						<th scope="col">Promoter Name</th>
-						<th scope="col">Description</th>
-						<th scope="col">Points/Coins Distributed</th>
-						<th scope="col">Date</th>
-						<th scope="col">Time</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th>Jill</th>
-						<th>Smith</th>
-						<th>50</th>
-						<th>01/01/19</th>
-						<th>11:13 A.M. EST</th>
-					</tr>
-					<tr>
-						<th>Eve</th>
-						<th>Jackson</th>
-						<th>94</th>
-						<th>12/13/18</th>
-						<th>1:56 P.M. EST</th>
-					</tr>
-				</tbody>
-			</table>
+		<div
+			class="image"
+			style="background-image:url('./src/images/home-background.png');"
+		>
+			<img src="./src/images/home-background.png" alt="" />
 		</div>
 	</body>
 </html>
